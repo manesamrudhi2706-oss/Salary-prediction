@@ -16,7 +16,7 @@ import joblib
 
 
 model = joblib.load("salary_prediction_model.pkl")
-encoder = joinlib.load("label_encoder.pkl")
+encoder = joblib.load("label_encoder.pkl")
 
 st.title("Salary Prediction App")
 
