@@ -23,7 +23,7 @@ st.title("Salary Prediction App")
 
 age = st.number_input("Age",18,60)
 gender = st.selectbox("Gender",encoder["Gender"].classes_)
-Education = st.selectbox('Education Level',encoder['Education Level'].classes_)
+Education = st.selectbox('Education Level', encoder['Education'].classes_)
 job_title = st.selectbox("Job Title",encoder["Job Title"].classes_)
 year_of_exp = st.number_input("Years of Experience",0,30)
 
